@@ -5,8 +5,9 @@ template:
   bootswatch: cerulean
 authors:
   Nestlé Institute of Health Sciences:
+    href: https://www.nestlehealthscience.com/
   Institute for Bioengineering of Catalonia:
-    href: http://www.ibecbarcelona.eu/sensingsys
+    href: https://www.ibecbarcelona.eu/sensingsys
 
 
 reference:
