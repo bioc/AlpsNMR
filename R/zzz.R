@@ -1,5 +1,7 @@
 # Hervé Pagès wrote:
 #
+# https://stat.ethz.ch/pipermail/bioc-devel/2022-October/019290.html
+#
 # This is a race condition in 'R CMD check' that affects some packages on
 # Windows. What 'R CMD check' is trying to do here is open the
 # <package>-Ex.Rout file but that file is still being written to by another
