@@ -1,3 +1,8 @@
+# AlpsNMR 4.7.2 (2024-08-10)
+
+- Disable nested parallellization in `nmr_detect_peaks_tune_snr()`.
+
+
 # AlpsNMR 4.7.1 (2024-06-02)
 
 - Added `nmr_autophase()` for automated phase correction using the NMRphasing package (#68).
