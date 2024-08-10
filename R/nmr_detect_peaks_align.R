@@ -493,7 +493,7 @@ nmr_detect_peaks_tune_snr <- function(ds,
     ds1 <- filter(ds, NMRExperiment == !!NMRExperiment)
     names(SNR_thresholds) <- SNR_thresholds
 
-    peaks_detected_list <- BiocParallel::bplapply(
+    peaks_detected_list <- lapply(
         X = SNR_thresholds,
         FUN = function(SNR.Th, nmr_dataset, ...) {
             nmr_detect_peaks(
